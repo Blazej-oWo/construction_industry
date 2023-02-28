@@ -23,6 +23,7 @@ body {
 @media (min-width: 992px) {
   .heading--1 {
     font-size: 4rem;
+    margin-bottom: 55px;
   }
 }
 .heading--2 {
