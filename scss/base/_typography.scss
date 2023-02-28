@@ -1,0 +1,26 @@
+.heading {
+    font-weight: $font-weight-bold;
+    margin: 15px 0;
+
+    &--1 {
+        font-size: $font-size-4;
+        line-height: 75px;
+
+        @include medium-up {
+            font-size: $font-size-1;
+        }
+    }
+
+    &--2 {
+        font-size: $font-size-6;
+        line-height: 75px;
+
+        @include small-up {
+            font-size: $font-size-4;
+        }
+
+        @include medium-up {
+            font-size: $font-size-1;
+        }
+    }
+}

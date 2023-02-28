@@ -1,0 +1,21 @@
+$font-size-base: 1rem;
+
+$font-size-1: $font-size-base * 4; //64px
+$font-size-2: $font-size-base * 3; //48px
+$font-size-3: $font-size-base * 2.5; //40px
+$font-size-4: $font-size-base * 2; //32px
+$font-size-5: $font-size-base * 1.5; //24px
+$font-size-6: $font-size-base * 1.3; //20px
+$font-size-7: $font-size-base * 1; //16px
+$font-size-8: $font-size-base * 0.625; //10px
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+//Breakpoints
+$bp-small: "536px";
+$bp-medium: "992px";
+$bp-large: "1280px";

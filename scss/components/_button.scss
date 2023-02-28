@@ -1,0 +1,31 @@
+.btn {
+    display: inline-block;
+    padding: 19px 28.5px;
+    background-color: $orange-color;
+    color: $white-color;
+    text-align: center;
+    cursor: pointer;
+    font-size: $font-size-8;
+    font-weight: $font-weight-bold;
+
+    margin: 5px 0;
+    border-radius: 32px;
+    border: 1px solid $orange-color;
+    transition: 0.5s ease-in-out;
+
+    // @include medium-up {
+    //     font-size: $font-size-5;
+    // }
+
+    &:hover {
+        color: $orange-color;
+        background: rgba(234, 234, 234, 0.15);
+        border: 1px solid $orange-color;
+        backdrop-filter: blur(2px);
+        border-radius: 32px;
+        font-weight: $font-weight-bold;
+    }
+    @include medium-up {
+        font-size: $font-size-5;
+    }
+}
