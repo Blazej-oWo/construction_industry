@@ -13,13 +13,13 @@
             padding: 0 120px;
         }
     }
-    // & .btn {
-    //     display: none; // nie wyswietla na tel i tablet tutaj sie tyczy innego przycisku kolo menu
+    & .btn {
+        display: none; // nie wyswietla na tel i tablet tutaj sie tyczy innego przycisku kolo menu
 
-    //     @include medium-up {
-    //         display: inline-block;
-    //     }
-    // }
+        @include medium-up {
+            display: inline-block;
+        }
+    }
 }
 
 .container {

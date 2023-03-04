@@ -1,5 +1,5 @@
 .btn {
-    display: inline-block;
+    display: block;
     padding: 15px 25px;
     background-color: $orange-color;
     color: $white-color;
@@ -7,7 +7,7 @@
     cursor: pointer;
     font-size: $font-size-7;
     font-weight: $font-weight-bold;
-    margin: 5px 0;
+    margin: 0 auto; //dodac od gory margin odpowiedni whiteSpace
     border-radius: 32px;
     border: 2px solid $orange-color;
     transition: 0.5s ease-in-out;
