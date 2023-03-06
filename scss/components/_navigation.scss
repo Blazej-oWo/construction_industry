@@ -1,9 +1,22 @@
 .navigation {
-    &--destkop {
+    &--desktop {
         display: none;
 
         @include medium-up {
             display: block;
+            margin-left: 40%;
+        }
+        & ul {
+            display: flex;
+            margin-top: -25px;
+        }
+        & a {
+            margin: 0 40px;
+            color: $white-color;
+
+            &:hover {
+                font-weight: $font-weight-bold;
+            }
         }
     }
 }
