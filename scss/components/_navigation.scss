@@ -1,9 +1,9 @@
 .navigation {
     &--destkop {
         display: none;
-    }
 
-    @include medium-up {
-        display: block;
+        @include medium-up {
+            display: block;
+        }
     }
 }
