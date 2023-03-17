@@ -90,6 +90,24 @@ ul li a {
   }
 }
 
+.holder {
+  margin: auto;
+  border: #fff;
+  background: #fff;
+}
+.holder img {
+  max-width: 100%;
+}
+.holder img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.holder .img-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 5px;
+}
+
 .btn {
   display: block;
   padding: 15px 25px;
