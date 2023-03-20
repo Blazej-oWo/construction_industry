@@ -182,4 +182,13 @@ main {
 }
 .navigation--desktop a:hover {
   color: #ff6f1e;
+}
+.navigation--mobile {
+  background-color: #fff;
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  z-index: 1;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
 }/*# sourceMappingURL=style.css.map */
