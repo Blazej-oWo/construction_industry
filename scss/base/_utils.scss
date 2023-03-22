@@ -1,0 +1,22 @@
+.hidden {
+    opacity: 0;
+    transition: 0.25s ease-in-out;
+}
+.visible {
+    opacity: 1;
+    transition: 0.25s ease-in-out;
+}
+.none {
+    &.btn-menu {
+        display: none;
+    }
+}
+.block {
+    &.btn-menu {
+        display: inline-block;
+
+        @include medium-up {
+            display: none;
+        }
+    }
+}
