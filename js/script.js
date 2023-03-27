@@ -24,8 +24,8 @@ showMenu.addEventListener('click', () => {
 })
 
 hideMenu.addEventListener('click', () => {
-    toggleElement(overlay.classList.hidden, classList.visible);
-    toggleElement(menuMobile.classList.hidden, classList.visible);
+    toggleElement(overlay, classList.hidden, classList.visible);
+    toggleElement(menuMobile, classList.hidden, classList.visible);
     toggleElement(hideMenu, classList.none, classList.block);
     toggleElement(showMenu, classList.block, classList.none);
 })
