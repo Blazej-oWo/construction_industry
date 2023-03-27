@@ -4,10 +4,10 @@ const showMenu = document.querySelector('#show-menu');
 const hideMenu = document.querySelector('#hide-menu');
 
 const classList = {
-    visible = 'visible',
-    hidden = 'hidden',
-    block = 'block',
-    none = 'none'
+    visible: 'visible',
+    hidden: 'hidden',
+    block: 'block',
+    none: 'none'
 }
 
 const toggleElement = (element, classAdded, classRemoved) => {
