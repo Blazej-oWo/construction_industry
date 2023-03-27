@@ -16,7 +16,8 @@
     // @include medium-up {
     //     font-size: $font-size-5;
     // }
-    a:hover {
+
+    &:hover {
         color: $orange-color;
         background: rgba(234, 234, 234, 0.15);
         border: 2px solid $orange-color;
