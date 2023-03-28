@@ -19,6 +19,19 @@
         @include medium-up {
             padding: 32px 120px;
         }
+        // & span {
+        //     color: $white-color;
+        //     font-size: $font-size-3;
+        // }
+
+        & a {
+            color: $orange-color;
+            font-size: $font-size-4;
+        }
+        & span {
+            color: $white-color;
+            font-size: $font-size-3;
+        }
     }
 
     // display: none; // nie wyswietla na tel i tablet tutaj sie tyczy innego przycisku kolo menu
