@@ -21,12 +21,10 @@
         display: none;
     }
 }
-.block {
-    &.btn-menu {
-        display: inline-block;
+.btn-menu {
+    display: inline-block;
 
-        @include medium-up {
-            display: none;
-        }
+    @include medium-up {
+        display: none;
     }
 }

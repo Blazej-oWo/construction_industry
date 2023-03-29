@@ -26,11 +26,11 @@
   display: none;
 }
 
-.block.btn-menu {
+.btn-menu {
   display: inline-block;
 }
 @media (min-width: 992px) {
-  .block.btn-menu {
+  .btn-menu {
     display: none;
   }
 }
@@ -112,6 +112,7 @@ ul li a {
   position: relative;
   z-index: 2;
   padding: 14px;
+  width: 100vw;
 }
 .header .wrapper a {
   text-decoration: none;
@@ -121,11 +122,11 @@ ul li a {
     padding: 32px 120px;
   }
 }
-.header .wrapper a {
+.header .wrapper .logo a {
   color: #ff6f1e;
   font-size: 2rem;
 }
-.header .wrapper span {
+.header .wrapper .logo span {
   color: #fff;
   font-size: 2.5rem;
 }
@@ -210,7 +211,7 @@ main {
 @media (min-width: 992px) {
   .navigation--desktop {
     display: block;
-    margin-left: 30%;
+    margin-left: 45%;
   }
 }
 .navigation--desktop ul {
