@@ -50,7 +50,7 @@ body {
   background-image: url("/images/bakcground_home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 35vh;
+  height: 99vh;
 }
 
 ul {
@@ -89,13 +89,13 @@ ul li a {
   }
 }
 .heading--2 {
-  font-size: 1.3rem;
+  font-size: 2rem;
   line-height: 75px;
   font-weight: 300;
 }
 @media (min-width: 536px) {
   .heading--2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 992px) {
@@ -117,7 +117,7 @@ ul li a {
   position: relative;
   z-index: 2;
   padding: 14px;
-  width: 100vw;
+  width: 99vw;
 }
 .header .wrapper a {
   text-decoration: none;
