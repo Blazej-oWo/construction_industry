@@ -172,9 +172,6 @@ main {
   -webkit-transition: all 100ms ease-in-out;
   transition: all 100ms ease-in-out;
 }
-.gallery img:hover {
-  cursor: pointer;
-}
 
 .btn {
   display: block;
