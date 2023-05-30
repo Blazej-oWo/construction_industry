@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odnowa mieszkań</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
 </head>
 
 <body>
@@ -58,7 +59,7 @@
 
                             <li><a href="#">Oferta</a></li>
 
-                            <li><a href="#">Galeria</a></li>
+                            <li><a href="#galeria">Galeria</a></li>
 
                             <li><a href="#">Cennik</a></li>
 
@@ -86,11 +87,14 @@
 
         </section>
 
-        <h2 class="gallery header">
+        <h2 class="gallery-one header"><a name="galeria">
             Galeria
-        </h2>
-        <div class="img-grid">
-            <img src="images/1.jpg" alt="">
+        </a></h2>
+        <div class="gallery">
+            <a href="images/1.jpg" data-lightbox="constructions" data-title="Zdjecie">
+                <img src="images/1.jpg" alt="">
+            </a>
+            
             <img src="images/2.jpg" alt="">
             <img src="images/3.jpg" loading="lazy" alt="">
             <img src="images/4.jpg" loading="lazy" alt="">
@@ -131,7 +135,7 @@
             </div>
         </div>
     </footer>
-
+<script src="js/lightbox-plus-jquery.js"></script>
     <script src="js/script.js"></script>
 </body>
 
