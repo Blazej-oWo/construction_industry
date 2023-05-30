@@ -20,41 +20,20 @@
         @include medium-up {
             padding: 32px 120px;
         }
-        // & span {
-        //     color: $white-color;
-        //     font-size: $font-size-3;
-        // }
-        & .logo {
-            & a {
-                color: $orange-color;
-                font-size: $font-size-4;
-            }
-            & span {
-                color: $white-color;
-                font-size: $font-size-3;
-            }
+
+        &.logo {
+            color: $orange-color;
+            font-size: $font-size-6;
         }
-    }
-
-    // display: none; // nie wyswietla na tel i tablet tutaj sie tyczy innego przycisku kolo menu
-
-    @include medium-up {
-        display: inline-block;
+        & span {
+            color: $white-color;
+            font-size: $font-size-3;
+        }
     }
 }
 
-// .container {
-//     // &--img-background {
-//     //     width: 99vw;
-//     //     height: 100vh;
-//     //     position: absolute;
-//     // }
+// display: none; // nie wyswietla na tel i tablet tutaj sie tyczy innego przycisku kolo menu
+
+// @include medium-up {
+//     display: inline-block;
 // }
-// // img {
-// //     position: relative;
-// //     z-index: -1;
-// //     top: 0;
-// //     left: 0;
-// //     width: 100%;
-// //     height: 100%;
-// // }

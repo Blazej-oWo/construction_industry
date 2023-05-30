@@ -28,6 +28,7 @@
 
 .btn-menu {
   display: inline-block;
+  margin: 0 0 0 200px;
 }
 @media (min-width: 992px) {
   .btn-menu {
@@ -74,6 +75,7 @@ ul li a {
   color: #fff;
 }
 .heading--1 {
+  position: relative;
   font-size: 2rem;
   line-height: 75px;
   margin-top: 220px;
@@ -127,18 +129,13 @@ ul li a {
     padding: 32px 120px;
   }
 }
-.header .wrapper .logo a {
+.header .wrapper.logo {
   color: #ff6f1e;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
-.header .wrapper .logo span {
+.header .wrapper span {
   color: #fff;
   font-size: 2.5rem;
-}
-@media (min-width: 992px) {
-  .header {
-    display: inline-block;
-  }
 }
 
 main {

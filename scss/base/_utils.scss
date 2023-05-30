@@ -23,6 +23,8 @@
 }
 .btn-menu {
     display: inline-block;
+    // margin: 20px 0 20px 200px;
+    margin: 0 0 0 200px;
 
     @include medium-up {
         display: none;
