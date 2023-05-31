@@ -11,7 +11,7 @@
 }
 
 .hidden {
-  opacity: 0;
+  display: none;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
