@@ -20,9 +20,10 @@
 
     &--2 {
         font-size: $font-size-4;
-        line-height: 75px;
-        font-weight: $font-weight-light;
-
+        line-height: 65px;
+        font-weight: $font-weight-medium;
+        margin: 0 auto;
+        max-width: 1100px;
         @include small-up {
             font-size: $font-size-5;
         }
