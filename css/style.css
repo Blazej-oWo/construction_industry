@@ -154,11 +154,26 @@ main {
   width: 65%;
   height: 1052px;
   left: 340px;
-  top: 1050px;
+  top: 650px;
   background: #fcfcfc;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
   margin: 0 auto;
   -webkit-box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25), 3px 3px 4px rgba(74, 74, 74, 0.25);
           box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25), 3px 3px 4px rgba(74, 74, 74, 0.25);
+}
+@media (min-width: 992px) {
+  .services {
+    top: 1050px;
+    width: 65%;
+    height: 45wh;
+  }
+}
+@media (min-width: 536px) {
+  .services {
+    width: 65%;
+    height: 45wh;
+  }
 }
 
 .gallery-one {
