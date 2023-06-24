@@ -24,9 +24,12 @@
 .btn-menu {
     display: inline-block;
     // margin: 20px 0 20px 200px;
-    margin: 0 0 0 200px;
+    margin: 0 0 0 60%;
 
     @include medium-up {
         display: none;
+    }
+    @include small-up {
+        margin: 0 0 0 60%;
     }
 }
