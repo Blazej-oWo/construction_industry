@@ -246,8 +246,22 @@ main {
   margin: 0 30px;
   color: #fff;
 }
+.navigation--desktop a::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 6px;
+  background-color: #ff6f1e;
+  -webkit-transition: width 0.2s ease-in;
+  transition: width 0.2s ease-in;
+}
 .navigation--desktop a:hover {
   color: #ff6f1e;
+}
+.navigation--desktop a:hover::after {
+  width: 100%;
 }
 .navigation--mobile {
   background: rgba(0, 0, 0, 0.75);
