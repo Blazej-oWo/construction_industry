@@ -283,9 +283,12 @@ main {
   font-weight: 500;
   color: #fff;
 }
+.menu__list.active {
+  color: red;
+}
 .menu__list a:hover {
   color: #ff6f1e;
 }
 .menu__list a:active {
-  font-weight: 600;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

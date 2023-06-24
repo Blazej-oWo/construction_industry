@@ -47,11 +47,14 @@
             font-weight: $font-weight-medium;
             color: $white-color;
         }
+        &.active {
+            color: red;
+        }
         a:hover {
             color: $orange-color;
         }
         a:active {
-            font-weight: $font-weight-semibold;
+            font-weight: $font-weight-bold;
         }
     }
 }
