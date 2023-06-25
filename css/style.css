@@ -243,8 +243,10 @@ main {
   margin-top: -45px;
 }
 .navigation--desktop a {
+  position: relative;
   margin: 0 30px;
   color: #fff;
+  padding-bottom: 22px;
 }
 .navigation--desktop a::after {
   content: "";
@@ -252,6 +254,10 @@ main {
   top: 100%;
   left: 0;
   width: 0;
+  right: 0;
+  border-radius: 5px;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
   height: 6px;
   background-color: #ff6f1e;
   -webkit-transition: width 0.2s ease-in;
