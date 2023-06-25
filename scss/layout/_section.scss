@@ -40,6 +40,40 @@ main {
         transition: all 100ms ease-in-out;
     }
 }
+.price {
+    &__list {
+        background-image: url(/images/bg_price.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        width: 99vw;
+        height: 947px;
+
+        .glass-effect {
+            position: absolute;
+            width: 908px;
+            height: 412px;
+            flex-shrink: 0;
+            border-radius: 25px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+            box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.25), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(4.5px);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+            // do-mobile{}
+        }
+        .price-info {
+            text-transform: uppercase;
+            color: $white-color;
+            font-size: $font-size-2;
+            margin: 104px;
+            text-align: center;
+            font-weight: $font-weight-semibold;
+        }
+    }
+}
 // & img:hover {
 //     cursor: pointer;
 // }

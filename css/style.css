@@ -196,6 +196,41 @@ main {
   transition: all 100ms ease-in-out;
 }
 
+.price__list {
+  background-image: url(/images/bg_price.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 99vw;
+  height: 947px;
+}
+.price__list .glass-effect {
+  position: absolute;
+  width: 908px;
+  height: 412px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 25px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.25), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.25), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(4.5px);
+          backdrop-filter: blur(4.5px);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 10px;
+}
+.price__list .price-info {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3rem;
+  margin: 104px;
+  text-align: center;
+  font-weight: 600;
+}
+
 .btn {
   display: block;
   padding: 15px 25px;
