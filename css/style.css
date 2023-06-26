@@ -231,6 +231,12 @@ main {
   font-weight: 600;
 }
 
+.footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
 .btn {
   display: block;
   padding: 15px 25px;
