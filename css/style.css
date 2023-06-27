@@ -202,7 +202,7 @@ main {
   background-repeat: no-repeat;
   position: relative;
   width: 99vw;
-  height: 947px;
+  height: 1247px;
 }
 .price__list .glass-effect {
   position: absolute;
@@ -233,16 +233,18 @@ main {
 
 .footer {
   text-align: center;
-  background-color: black;
+  background-color: rgb(151, 151, 151);
   color: white;
 }
 
 .contact {
   text-align: center;
-  color: black;
+  color: white;
   font-size: 2rem;
   font-weight: 600;
   padding: 122px;
+  background: -webkit-gradient(linear, left top, right top, from(#0e1c26), to(rgba(41, 72, 97, 0)));
+  background: linear-gradient(90deg, #0e1c26 0%, rgba(41, 72, 97, 0) 100%);
 }
 
 .contact p {
@@ -253,7 +255,7 @@ main {
 }
 
 .contact span {
-  color: gray;
+  color: rgb(0, 0, 0);
 }
 
 .btn {
