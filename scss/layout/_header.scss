@@ -12,7 +12,9 @@
         z-index: 2;
         padding: 14px;
         width: 99vw;
-
+        position: fixed;
+        margin-top: -120px;
+        // nie wiem czy zostawić fixed, czy to jest dobre
         & a {
             text-decoration: none;
         }
