@@ -48,6 +48,7 @@ main {
         position: relative;
         width: 99vw;
         height: 1747px;
+        z-index: 1;
 
         .glass-effect {
             position: absolute;
@@ -73,20 +74,27 @@ main {
             font-weight: $font-weight-semibold;
         }
     }
+}
 
-    .contact_info {
+.contact {
+    &__info {
+        position: relative;
+        margin-top: -240px;
+
         text-align: center;
         color: white;
         font-size: $font-size-4;
         font-weight: $font-weight-semibold;
-    }
-    &__info p {
-        text-align: center;
-        padding: 8px;
-        max-width: 700px;
-        margin: 0 auto;
-    }
-    &__info span {
-        color: rgb(0, 0, 0);
+        z-index: 3;
+
+        .phone-number {
+            text-align: center;
+            padding: 8px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .email-adress {
+            color: rgb(0, 0, 0);
+        }
     }
 }

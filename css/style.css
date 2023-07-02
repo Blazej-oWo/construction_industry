@@ -203,6 +203,7 @@ main {
   position: relative;
   width: 99vw;
   height: 1747px;
+  z-index: 1;
 }
 .price__list .glass-effect {
   position: absolute;
@@ -230,19 +231,23 @@ main {
   text-align: center;
   font-weight: 600;
 }
-.price .contact_info {
+
+.contact__info {
+  position: relative;
+  margin-top: -240px;
   text-align: center;
   color: white;
   font-size: 2rem;
   font-weight: 600;
+  z-index: 3;
 }
-.price__info p {
+.contact__info .phone-number {
   text-align: center;
   padding: 8px;
   max-width: 700px;
   margin: 0 auto;
 }
-.price__info span {
+.contact__info .email-adress {
   color: rgb(0, 0, 0);
 }
 
