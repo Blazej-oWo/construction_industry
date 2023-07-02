@@ -252,9 +252,13 @@ main {
 }
 
 .footer {
+  position: relative;
+  z-index: 3;
   text-align: center;
-  background-color: rgb(151, 151, 151);
+  background-color: #0e1c26;
   color: white;
+  width: 99vw;
+  bottom: -101px;
 }
 
 .btn {
