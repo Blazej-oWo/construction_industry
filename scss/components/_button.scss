@@ -7,11 +7,11 @@
     cursor: pointer;
     font-size: $font-size-7;
     font-weight: $font-weight-bold;
-    margin: 0 auto; //dodac od gory margin odpowiedni whiteSpace
+    margin: auto; //dodac od gory margin odpowiedni whiteSpace
     border-radius: 32px;
     border: 2px solid $orange-color;
     transition: 0.5s ease-in-out;
-    margin-top: 54px;
+    margin-top: 80px;
 
     &:hover {
         color: $orange-color;

@@ -8,7 +8,7 @@
         position: relative;
         font-size: $font-size-4;
         line-height: 75px;
-        margin-top: 120px;
+        margin-top: 220px;
 
         @include medium-up {
             font-size: $font-size-4;
@@ -22,7 +22,8 @@
         font-size: $font-size-4;
         line-height: 65px;
         font-weight: $font-weight-medium;
-        margin: 0 auto;
+        margin: 70px auto;
+
         max-width: 1100px;
 
         @include small-up {
