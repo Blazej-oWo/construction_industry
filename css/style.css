@@ -113,6 +113,32 @@ ul li a {
   }
 }
 
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.services-header {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.services-name {
+  font-size: 1.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.text-wrapper {
+  max-width: 100px;
+  margin-top: 100;
+}
+
 .header .flex {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -175,7 +201,6 @@ main {
     height: 45wh;
   }
 }
-
 .gallery-one {
   text-align: center;
   color: #000;
