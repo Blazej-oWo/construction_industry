@@ -117,10 +117,13 @@ ul li a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 300px 400px;
+  position: relative;
 }
 
 .services-header {
+  position: absolute;
   font-size: 2.5rem;
+  margin: 10px 0 5px 40%;
 }
 
 .section-services {
@@ -182,7 +185,6 @@ main {
   width: 65%;
   height: 1052px;
   left: 340px;
-  top: 650px;
   background: #fcfcfc;
   -ms-flex-negative: 1;
       flex-shrink: 1;
@@ -192,15 +194,17 @@ main {
 }
 @media (min-width: 992px) {
   .services {
-    top: 856px;
+    top: 1156px;
     width: 65%;
     height: 45wh;
   }
 }
 @media (min-width: 536px) {
   .services {
+    top: 756px;
     width: 65%;
     height: 45wh;
+    left: 20%;
   }
 }
 .gallery-one {
