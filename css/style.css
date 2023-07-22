@@ -117,7 +117,6 @@ ul li a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 300px 400px;
-  position: relative;
 }
 
 .services-header {
@@ -188,7 +187,7 @@ main {
   background: #fcfcfc;
   -ms-flex-negative: 1;
       flex-shrink: 1;
-  margin: 0 auto;
+  margin: 320px auto;
   -webkit-box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25), 3px 3px 4px rgba(74, 74, 74, 0.25);
           box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25), 3px 3px 4px rgba(74, 74, 74, 0.25);
 }
@@ -207,6 +206,27 @@ main {
     left: 20%;
   }
 }
+.services .services-header {
+  position: absolute;
+  font-size: 2.5rem;
+  margin: 10px 0 5px 40%;
+}
+.services .section-services {
+  margin: 250px 30px;
+}
+.services .services-name {
+  display: inline-block;
+  font-size: 2rem;
+  text-align: center;
+}
+.services .text-wrapper {
+  position: absolute;
+  max-width: 340px;
+  margin: 0 10px;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
 .gallery-one {
   text-align: center;
   color: #000;

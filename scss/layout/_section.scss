@@ -6,11 +6,12 @@ main {
     width: 65%;
     height: 1052px;
     left: 340px;
-
     background: #fcfcfc;
     flex-shrink: 1;
-    margin: 0 auto;
-    box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.25), 3px 3px 4px rgba(74, 74, 74, 0.25);
+    margin: 320px auto;
+    box-shadow:
+        -3px 3px 4px rgba(0, 0, 0, 0.25),
+        3px 3px 4px rgba(74, 74, 74, 0.25);
     @include medium-up {
         top: 1156px;
         width: 65%;
@@ -23,6 +24,25 @@ main {
         left: 20%;
     }
     .services-header {
+        position: absolute;
+        font-size: $font-size-3;
+        margin: 10px 0 5px 40%;
+    }
+    .section-services {
+        margin: 250px 30px;
+    }
+    .services-name {
+        display: inline-block;
+        font-size: $font-size-4;
+
+        text-align: center;
+    }
+    .text-wrapper {
+        position: absolute;
+        max-width: 340px;
+        margin: 0 10px;
+        font-size: $font-size-6;
+        text-align: justify;
     }
 }
 .gallery-one {
@@ -61,7 +81,9 @@ main {
             flex-shrink: 0;
             border-radius: 25px;
             background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
-            box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.25), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            box-shadow:
+                -4px -4px 4px 0px rgba(0, 0, 0, 0.25),
+                4px 4px 4px 0px rgba(0, 0, 0, 0.25);
             backdrop-filter: blur(4.5px);
             top: 50%;
             left: 50%;
