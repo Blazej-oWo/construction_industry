@@ -19,15 +19,16 @@
     }
 
     &--2 {
-        font-size: $font-size-4;
+        font-size: $font-size-6;
         line-height: 65px;
         font-weight: $font-weight-medium;
         margin: 70px auto;
 
-        max-width: 1100px;
+        max-width: 400px;
 
         @include small-up {
-            font-size: $font-size-5;
+            font-size: $font-size-4;
+            max-width: 1100px;
         }
 
         @include medium-up {
