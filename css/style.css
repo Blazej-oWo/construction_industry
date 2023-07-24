@@ -170,15 +170,15 @@ main {
   .services {
     top: 1156px;
     width: 65%;
-    height: 45wh;
+    height: 45vh;
   }
 }
 @media (min-width: 536px) {
   .services {
-    top: 756px;
+    top: 956px;
     width: 65%;
-    height: 45wh;
     left: 20%;
+    height: 80%;
   }
 }
 .services .services-header {

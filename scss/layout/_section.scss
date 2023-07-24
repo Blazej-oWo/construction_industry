@@ -18,13 +18,13 @@ main {
     @include medium-up {
         top: 1156px;
         width: 65%;
-        height: 45wh;
+        height: 45vh;
     }
     @include small-up {
-        top: 756px;
+        top: 956px;
         width: 65%;
-        height: 45wh;
         left: 20%;
+        height: 80%;
     }
     .services-header {
         position: absolute;
