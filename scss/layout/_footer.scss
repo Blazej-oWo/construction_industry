@@ -5,5 +5,11 @@
     background-color: #0e1c26;
     color: white;
     width: 99vw;
-    bottom: -101px;
+    bottom: -95px;
+
+    @include small-up {
+    }
+
+    @include medium-up {
+    }
 }
